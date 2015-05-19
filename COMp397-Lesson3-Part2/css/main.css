@@ -1,0 +1,39 @@
+﻿body {
+    background: #8fc800; /* Old browsers */
+    background: -moz-linear-gradient(top,  #8fc800 0%, #8fc800 79%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8fc800), color-stop(79%,#8fc800)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #8fc800 0%,#8fc800 79%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #8fc800 0%,#8fc800 79%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #8fc800 0%,#8fc800 79%); /* IE10+ */
+    background: linear-gradient(to bottom,  #8fc800 0%,#8fc800 79%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc800', endColorstr='#8fc800',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.impress-enabled .step {
+
+    -webkit-transition:  1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: background 1s linear;
+}
+
+    .impress-enabled .step.active {
+    opacity: 1;
+    }
+
+.slide {
+    display:block;
+    width:700px;
+    height:600px;
+    padding: 40px 60px;
+    background-color: blue;
+    border:1px solid rgba(0,0,0,0.3);
+    color:rgb(255, 0, 0);
+    text-shadow:0 2px 2px rgb(247, 5, 183);
+    border-radius:5px;
+    font-family:'Comic Sans MS','Times New Roman',Jokerman;
+    font-size:30px;
+}
